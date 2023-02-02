@@ -1,4 +1,10 @@
 my_env
 blocks
 docker-compose.yaml
-data
+# data/green/green_tripdata_2019-04.parquet
+# data/green/green_tripdata_2020-01.parquet
+# data/green/green_tripdata_2020-11.parquet
+# data/yellow/yellow_tripdata_2019-02.parquet
+# data/yellow/yellow_tripdata_2019-03.parquet
+data/green/*
+data/yellow/*
