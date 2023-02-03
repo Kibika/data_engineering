@@ -3,7 +3,7 @@
 ###
 name: Web to GCS with Github Storage and Local Infra
 description: The main ETL function
-version: 5a65ca13f1131b1ec3b3873aa2aaf4ff
+version: 20e021b0f504416f3183da8a77db1ce2
 # The work queue that will handle this deployment's runs
 work_queue_name: default
 tags: []
@@ -31,7 +31,7 @@ infrastructure:
   _block_type_slug: process
 storage:
   repository: https://github.com/Kibika/data_engineering.git
-  reference: main
+  reference: null
   access_token: null
   _block_document_id: 201b56ef-8c15-4d1f-998c-1b0956b644a0
   _block_document_name: zoomcamp-github
