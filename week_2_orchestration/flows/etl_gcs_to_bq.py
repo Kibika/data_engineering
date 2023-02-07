@@ -30,7 +30,7 @@ def write_bq(df: pd.DataFrame) -> None:
     gcp_credentials_block = GcpCredentials.load("zoomcamp-gcp-creds")
 
     df.to_gbq(
-        destination_table="dezoomcamp.rides",
+        destination_table="trips_data_all.yellow_tripdata",
         project_id="second-chariot-375510",
         credentials=gcp_credentials_block.get_credentials_from_service_account(),
         chunksize=500_000,
@@ -57,6 +57,6 @@ def etl_parent_flow(
 
 if __name__ == "__main__":
     color = "yellow"
-    months = [2, 3]
-    year = 2019
+    months = [12]
+    year = 2020
     etl_parent_flow(months, year, color)
