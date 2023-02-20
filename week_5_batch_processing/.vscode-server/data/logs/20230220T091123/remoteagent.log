@@ -1,0 +1,31 @@
+2023-02-20 09:11:23.392 [info] 
+
+
+
+
+2023-02-20 09:11:23.437 [info] Extension host agent started.
+2023-02-20 09:11:23.989 [info] [127.0.0.1][6e8faafc][ManagementConnection] New connection established.
+2023-02-20 09:11:24.244 [info] [127.0.0.1][03517cc5][ExtensionHostConnection] New connection established.
+2023-02-20 09:11:25.597 [info] [127.0.0.1][03517cc5][ExtensionHostConnection] <1509> Launched Extension Host Process.
+2023-02-20 09:11:29.418 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-20 09:16:23.438 [info] New EH opened, aborting shutdown
+2023-02-20 09:43:48.531 [error] Error: connect ECONNREFUSED 127.0.0.1:4040
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-02-20 09:43:48.787 [error] Error: connect ECONNREFUSED 127.0.0.1:4040
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-02-20 09:43:59.951 [error] Error: connect ECONNREFUSED 127.0.0.1:4040
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-02-20 09:52:28.478 [info] [127.0.0.1][6e8faafc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-02-20 09:52:28.495 [info] [127.0.0.1][03517cc5][ExtensionHostConnection] <1509> Extension Host Process exited with code: 0, signal: null.
+2023-02-20 09:52:28.496 [info] Last EH closed, waiting before shutting down
+2023-02-20 09:52:34.939 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-02-20 09:52:34.939 [info] Cancelling previous shutdown timeout
+2023-02-20 09:52:35.885 [info] [127.0.0.1][0e11b81a][ManagementConnection] New connection established.
+2023-02-20 09:52:36.231 [info] [127.0.0.1][d203f9ed][ExtensionHostConnection] New connection established.
+2023-02-20 09:52:36.245 [info] [127.0.0.1][d203f9ed][ExtensionHostConnection] <2214> Launched Extension Host Process.
+2023-02-20 09:52:40.552 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-20 09:57:34.941 [info] New EH opened, aborting shutdown
+2023-02-20 10:01:05.540 [error] Error: connect ECONNREFUSED 127.0.0.1:4040
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-02-20 10:01:05.855 [error] Error: connect ECONNREFUSED 127.0.0.1:4040
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)

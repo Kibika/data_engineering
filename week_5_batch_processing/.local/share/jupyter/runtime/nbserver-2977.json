@@ -1,0 +1,12 @@
+{
+  "base_url": "/",
+  "hostname": "localhost",
+  "notebook_dir": "/home/stl/notebooks",
+  "password": false,
+  "pid": 2977,
+  "port": 8888,
+  "secure": false,
+  "sock": "",
+  "token": "789be1d6ebf1af73ddf57d40ddef3add4d78a7a9e89fc5d5",
+  "url": "http://localhost:8888/"
+}

@@ -1,0 +1,17 @@
+2023-02-17 01:44:06.564 [info] 
+
+
+
+
+2023-02-17 01:44:06.608 [info] Extension host agent started.
+2023-02-17 01:44:07.348 [info] [127.0.0.1][ddc1f473][ManagementConnection] New connection established.
+2023-02-17 01:44:07.716 [info] [127.0.0.1][60715d0e][ExtensionHostConnection] New connection established.
+2023-02-17 01:44:08.724 [info] [127.0.0.1][60715d0e][ExtensionHostConnection] <1599> Launched Extension Host Process.
+2023-02-17 01:44:17.756 [warning] No ptyHost heartbeat after 6 seconds
+2023-02-17 01:49:06.609 [info] New EH opened, aborting shutdown
+2023-02-17 03:10:47.806 [error] Error: connect ECONNREFUSED 127.0.0.1:8888
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-02-17 03:10:55.258 [error] Error: connect ECONNREFUSED 127.0.0.1:8888
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+2023-02-17 03:10:55.503 [error] Error: connect ECONNREFUSED 127.0.0.1:8888
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)

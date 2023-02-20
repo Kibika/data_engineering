@@ -1,0 +1,409 @@
+23/02/20 10:05:09 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 2783@de-zoomcamp
+23/02/20 10:05:09 INFO SignalUtils: Registering signal handler for TERM
+23/02/20 10:05:09 INFO SignalUtils: Registering signal handler for HUP
+23/02/20 10:05:09 INFO SignalUtils: Registering signal handler for INT
+23/02/20 10:05:10 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+23/02/20 10:05:10 INFO SecurityManager: Changing view acls to: stl
+23/02/20 10:05:10 INFO SecurityManager: Changing modify acls to: stl
+23/02/20 10:05:10 INFO SecurityManager: Changing view acls groups to: 
+23/02/20 10:05:10 INFO SecurityManager: Changing modify acls groups to: 
+23/02/20 10:05:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(stl); groups with view permissions: Set(); users  with modify permissions: Set(stl); groups with modify permissions: Set()
+23/02/20 10:05:10 INFO TransportClientFactory: Successfully created connection to de-zoomcamp.europe-west1-b.c.second-chariot-375510.internal/10.132.0.3:42781 after 134 ms (0 ms spent in bootstraps)
+23/02/20 10:05:11 INFO SecurityManager: Changing view acls to: stl
+23/02/20 10:05:11 INFO SecurityManager: Changing modify acls to: stl
+23/02/20 10:05:11 INFO SecurityManager: Changing view acls groups to: 
+23/02/20 10:05:11 INFO SecurityManager: Changing modify acls groups to: 
+23/02/20 10:05:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(stl); groups with view permissions: Set(); users  with modify permissions: Set(stl); groups with modify permissions: Set()
+23/02/20 10:05:11 INFO TransportClientFactory: Successfully created connection to de-zoomcamp.europe-west1-b.c.second-chariot-375510.internal/10.132.0.3:42781 after 18 ms (0 ms spent in bootstraps)
+23/02/20 10:05:11 INFO DiskBlockManager: Created local directory at /tmp/spark-3cfc8120-2bf2-45cd-abe4-a1ff8e0f9825/executor-511fa4f1-9f0b-4a2c-a9e4-5d2eb1acb84e/blockmgr-d102a29d-6ffc-491d-bca8-bba305fcec6b
+23/02/20 10:05:12 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+23/02/20 10:05:12 INFO WorkerWatcher: Connecting to worker spark://Worker@10.132.0.3:33773
+23/02/20 10:05:12 INFO CoarseGrainedExecutorBackend: Connecting to driver: spark://CoarseGrainedScheduler@de-zoomcamp.europe-west1-b.c.second-chariot-375510.internal:42781
+23/02/20 10:05:12 INFO WorkerWatcher: Successfully connected to spark://Worker@10.132.0.3:33773
+23/02/20 10:05:12 INFO TransportClientFactory: Successfully created connection to /10.132.0.3:33773 after 36 ms (0 ms spent in bootstraps)
+23/02/20 10:05:12 INFO ResourceUtils: ==============================================================
+23/02/20 10:05:12 INFO ResourceUtils: No custom resources configured for spark.executor.
+23/02/20 10:05:12 INFO ResourceUtils: ==============================================================
+23/02/20 10:05:12 INFO CoarseGrainedExecutorBackend: Successfully registered with driver
+23/02/20 10:05:12 INFO Executor: Starting executor ID 0 on host 10.132.0.3
+23/02/20 10:05:12 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43791.
+23/02/20 10:05:12 INFO NettyBlockTransferService: Server created on 10.132.0.3:43791
+23/02/20 10:05:12 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+23/02/20 10:05:12 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(0, 10.132.0.3, 43791, None)
+23/02/20 10:05:12 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(0, 10.132.0.3, 43791, None)
+23/02/20 10:05:12 INFO BlockManager: Initialized BlockManager: BlockManagerId(0, 10.132.0.3, 43791, None)
+23/02/20 10:05:12 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+23/02/20 10:05:12 INFO CoarseGrainedExecutorBackend: Got assigned task 0
+23/02/20 10:05:12 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+23/02/20 10:05:12 INFO TorrentBroadcast: Started reading broadcast variable 0 with 1 pieces (estimated total size 4.0 MiB)
+23/02/20 10:05:12 INFO TransportClientFactory: Successfully created connection to de-zoomcamp.europe-west1-b.c.second-chariot-375510.internal/10.132.0.3:39897 after 6 ms (0 ms spent in bootstraps)
+23/02/20 10:05:13 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 36.9 KiB, free 434.4 MiB)
+23/02/20 10:05:13 INFO TorrentBroadcast: Reading broadcast variable 0 took 183 ms
+23/02/20 10:05:13 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 102.8 KiB, free 434.3 MiB)
+23/02/20 10:05:14 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2702 bytes result sent to driver
+23/02/20 10:05:16 INFO CoarseGrainedExecutorBackend: Got assigned task 1
+23/02/20 10:05:16 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+23/02/20 10:05:16 INFO TorrentBroadcast: Started reading broadcast variable 1 with 1 pieces (estimated total size 4.0 MiB)
+23/02/20 10:05:16 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 36.9 KiB, free 434.4 MiB)
+23/02/20 10:05:16 INFO TorrentBroadcast: Reading broadcast variable 1 took 22 ms
+23/02/20 10:05:16 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 102.8 KiB, free 434.3 MiB)
+23/02/20 10:05:16 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 2536 bytes result sent to driver
+23/02/20 10:05:19 INFO CoarseGrainedExecutorBackend: Got assigned task 2
+23/02/20 10:05:19 INFO Executor: Running task 0.0 in stage 2.0 (TID 2)
+23/02/20 10:05:19 INFO CoarseGrainedExecutorBackend: Got assigned task 3
+23/02/20 10:05:19 INFO TorrentBroadcast: Started reading broadcast variable 4 with 1 pieces (estimated total size 4.0 MiB)
+23/02/20 10:05:19 INFO CoarseGrainedExecutorBackend: Got assigned task 4
+23/02/20 10:05:19 INFO CoarseGrainedExecutorBackend: Got assigned task 5
+23/02/20 10:05:19 INFO Executor: Running task 2.0 in stage 2.0 (TID 4)
+23/02/20 10:05:19 INFO Executor: Running task 1.0 in stage 2.0 (TID 3)
+23/02/20 10:05:19 INFO Executor: Running task 3.0 in stage 2.0 (TID 5)
+23/02/20 10:05:19 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 30.5 KiB, free 434.4 MiB)
+23/02/20 10:05:19 INFO TorrentBroadcast: Reading broadcast variable 4 took 55 ms
+23/02/20 10:05:19 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 95.5 KiB, free 434.3 MiB)
+23/02/20 10:05:20 INFO CodeGenerator: Code generated in 339.745175 ms
+23/02/20 10:05:21 INFO CodeGenerator: Code generated in 165.544547 ms
+23/02/20 10:05:21 INFO CodeGenerator: Code generated in 36.482023 ms
+23/02/20 10:05:21 INFO CodeGenerator: Code generated in 21.752822 ms
+23/02/20 10:05:21 INFO CodeGenerator: Code generated in 27.414265 ms
+23/02/20 10:05:21 INFO CodeGenerator: Code generated in 14.252231 ms
+23/02/20 10:05:21 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/01/part-00000-701c08d7-8ad3-45f0-9b52-c061f10458c1-c000.snappy.parquet, range: 0-3201891, partition values: [empty row]
+23/02/20 10:05:21 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/07/part-00003-0074f381-e7bd-46f6-bcb9-f59ec882e1fd-c000.snappy.parquet, range: 0-541083, partition values: [empty row]
+23/02/20 10:05:21 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/06/part-00001-b240122e-0b16-46b3-b68a-8d4b610c11ad-c000.snappy.parquet, range: 0-658063, partition values: [empty row]
+23/02/20 10:05:21 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/04/part-00000-7c991159-0e7c-4e5a-85cd-f5068698e032-c000.snappy.parquet, range: 0-633123, partition values: [empty row]
+23/02/20 10:05:21 INFO TorrentBroadcast: Started reading broadcast variable 2 with 1 pieces (estimated total size 4.0 MiB)
+23/02/20 10:05:21 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 35.0 KiB, free 417.2 MiB)
+23/02/20 10:05:21 INFO TorrentBroadcast: Reading broadcast variable 2 took 23 ms
+23/02/20 10:05:21 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 370.9 KiB, free 416.9 MiB)
+23/02/20 10:05:21 INFO CodecPool: Got brand-new decompressor [.snappy]
+23/02/20 10:05:21 INFO CodecPool: Got brand-new decompressor [.snappy]
+23/02/20 10:05:21 INFO CodecPool: Got brand-new decompressor [.snappy]
+23/02/20 10:05:21 INFO CodecPool: Got brand-new decompressor [.snappy]
+23/02/20 10:05:22 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/07/part-00002-0074f381-e7bd-46f6-bcb9-f59ec882e1fd-c000.snappy.parquet, range: 0-538550, partition values: [empty row]
+23/02/20 10:05:22 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/04/part-00003-7c991159-0e7c-4e5a-85cd-f5068698e032-c000.snappy.parquet, range: 0-632742, partition values: [empty row]
+23/02/20 10:05:22 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/06/part-00002-b240122e-0b16-46b3-b68a-8d4b610c11ad-c000.snappy.parquet, range: 0-657420, partition values: [empty row]
+23/02/20 10:05:22 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/06/part-00003-428e0f85-9a64-4f6d-93fc-027ba0ea71a8-c000.snappy.parquet, range: 0-490515, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/04/part-00001-7c991159-0e7c-4e5a-85cd-f5068698e032-c000.snappy.parquet, range: 0-632077, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/06/part-00003-b240122e-0b16-46b3-b68a-8d4b610c11ad-c000.snappy.parquet, range: 0-656907, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/06/part-00000-428e0f85-9a64-4f6d-93fc-027ba0ea71a8-c000.snappy.parquet, range: 0-490163, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/12/part-00000-fb1d7255-57d0-4762-8bc6-eca8546f1d0b-c000.snappy.parquet, range: 0-609361, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/06/part-00001-428e0f85-9a64-4f6d-93fc-027ba0ea71a8-c000.snappy.parquet, range: 0-487579, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/06/part-00000-b240122e-0b16-46b3-b68a-8d4b610c11ad-c000.snappy.parquet, range: 0-656149, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/01/part-00003-701c08d7-8ad3-45f0-9b52-c061f10458c1-c000.snappy.parquet, range: 0-3200446, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/03/part-00002-8f25c59c-b582-4786-bc53-eb5658620920-c000.snappy.parquet, range: 0-608379, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/06/part-00002-428e0f85-9a64-4f6d-93fc-027ba0ea71a8-c000.snappy.parquet, range: 0-487570, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/05/part-00000-6a76c0d0-7d28-4769-872c-b554bd8122d9-c000.snappy.parquet, range: 0-655152, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/02/part-00001-14c7b92a-98fc-40bd-bb50-c7a06f06aeed-c000.snappy.parquet, range: 0-472502, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/12/part-00002-fb1d7255-57d0-4762-8bc6-eca8546f1d0b-c000.snappy.parquet, range: 0-607952, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/05/part-00003-6a76c0d0-7d28-4769-872c-b554bd8122d9-c000.snappy.parquet, range: 0-655055, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/02/part-00000-14c7b92a-98fc-40bd-bb50-c7a06f06aeed-c000.snappy.parquet, range: 0-472299, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/05/part-00001-6a76c0d0-7d28-4769-872c-b554bd8122d9-c000.snappy.parquet, range: 0-653270, partition values: [empty row]
+23/02/20 10:05:23 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/03/part-00003-8f25c59c-b582-4786-bc53-eb5658620920-c000.snappy.parquet, range: 0-607926, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/02/part-00003-14c7b92a-98fc-40bd-bb50-c7a06f06aeed-c000.snappy.parquet, range: 0-471919, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/02/part-00002-14c7b92a-98fc-40bd-bb50-c7a06f06aeed-c000.snappy.parquet, range: 0-470742, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/05/part-00002-6a76c0d0-7d28-4769-872c-b554bd8122d9-c000.snappy.parquet, range: 0-650775, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/03/part-00001-8f25c59c-b582-4786-bc53-eb5658620920-c000.snappy.parquet, range: 0-607616, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/05/part-00003-c8e8ade8-7559-4ead-9149-1a68186f4e02-c000.snappy.parquet, range: 0-449315, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/01/part-00001-701c08d7-8ad3-45f0-9b52-c061f10458c1-c000.snappy.parquet, range: 0-3196882, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/12/part-00001-fb1d7255-57d0-4762-8bc6-eca8546f1d0b-c000.snappy.parquet, range: 0-607292, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/11/part-00003-d4f830e7-5940-4562-b0e2-25aef33424fe-c000.snappy.parquet, range: 0-647476, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/05/part-00000-c8e8ade8-7559-4ead-9149-1a68186f4e02-c000.snappy.parquet, range: 0-447492, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/12/part-00003-fb1d7255-57d0-4762-8bc6-eca8546f1d0b-c000.snappy.parquet, range: 0-607053, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/05/part-00001-c8e8ade8-7559-4ead-9149-1a68186f4e02-c000.snappy.parquet, range: 0-447158, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/11/part-00000-d4f830e7-5940-4562-b0e2-25aef33424fe-c000.snappy.parquet, range: 0-646420, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/03/part-00000-8f25c59c-b582-4786-bc53-eb5658620920-c000.snappy.parquet, range: 0-604511, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/05/part-00002-c8e8ade8-7559-4ead-9149-1a68186f4e02-c000.snappy.parquet, range: 0-446602, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/11/part-00001-d4f830e7-5940-4562-b0e2-25aef33424fe-c000.snappy.parquet, range: 0-644856, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/04/part-00001-78e3d1c9-06ac-4de2-b20b-c182af41d836-c000.snappy.parquet, range: 0-291196, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/08/part-00000-97c076cd-e2bf-4c9e-b7dd-7da4bc3e26ee-c000.snappy.parquet, range: 0-602261, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/01/part-00002-701c08d7-8ad3-45f0-9b52-c061f10458c1-c000.snappy.parquet, range: 0-3195353, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/04/part-00003-78e3d1c9-06ac-4de2-b20b-c182af41d836-c000.snappy.parquet, range: 0-290987, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/11/part-00002-d4f830e7-5940-4562-b0e2-25aef33424fe-c000.snappy.parquet, range: 0-644510, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/04/part-00002-78e3d1c9-06ac-4de2-b20b-c182af41d836-c000.snappy.parquet, range: 0-290956, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/08/part-00003-97c076cd-e2bf-4c9e-b7dd-7da4bc3e26ee-c000.snappy.parquet, range: 0-600783, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/09/part-00002-d8847aa3-e87d-47d4-84cb-1d1a0bb04616-c000.snappy.parquet, range: 0-639757, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/04/part-00000-78e3d1c9-06ac-4de2-b20b-c182af41d836-c000.snappy.parquet, range: 0-290216, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/08/part-00001-97c076cd-e2bf-4c9e-b7dd-7da4bc3e26ee-c000.snappy.parquet, range: 0-600514, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/08/part-00000-9b0a0433-d90e-44da-9b39-4b43e7195bdb-c000.snappy.parquet, range: 0-2122, partition values: [empty row]
+23/02/20 10:05:24 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/07/part-00000-35863759-7830-48b6-b98d-ed496f479246-c000.snappy.parquet, range: 0-638164, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/08/part-00002-97c076cd-e2bf-4c9e-b7dd-7da4bc3e26ee-c000.snappy.parquet, range: 0-600167, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/09/part-00001-d8847aa3-e87d-47d4-84cb-1d1a0bb04616-c000.snappy.parquet, range: 0-637981, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/01/part-00002-590a36a2-7500-44ba-9fb8-5d6d1b73dbf0-c000.snappy.parquet, range: 0-560153, partition values: [empty row]
+23/02/20 10:05:25 INFO Executor: Finished task 3.0 in stage 2.0 (TID 5). 3518 bytes result sent to driver
+23/02/20 10:05:25 INFO CoarseGrainedExecutorBackend: Got assigned task 6
+23/02/20 10:05:25 INFO Executor: Running task 4.0 in stage 2.0 (TID 6)
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/02/part-00000-d625603b-e13f-4135-b29f-1284badf006e-c000.snappy.parquet, range: 0-2904266, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/07/part-00002-35863759-7830-48b6-b98d-ed496f479246-c000.snappy.parquet, range: 0-636880, partition values: [empty row]
+23/02/20 10:05:25 INFO CodeGenerator: Code generated in 76.325976 ms
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/01/part-00003-590a36a2-7500-44ba-9fb8-5d6d1b73dbf0-c000.snappy.parquet, range: 0-559039, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/01/part-00002-81083b95-e0c4-4bb2-8710-a2e1d97b9e33-c000.snappy.parquet, range: 0-42396853, partition values: [empty row]
+23/02/20 10:05:25 INFO TorrentBroadcast: Started reading broadcast variable 3 with 1 pieces (estimated total size 4.0 MiB)
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/09/part-00000-d8847aa3-e87d-47d4-84cb-1d1a0bb04616-c000.snappy.parquet, range: 0-636738, partition values: [empty row]
+23/02/20 10:05:25 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 35.0 KiB, free 416.8 MiB)
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/01/part-00001-590a36a2-7500-44ba-9fb8-5d6d1b73dbf0-c000.snappy.parquet, range: 0-558030, partition values: [empty row]
+23/02/20 10:05:25 INFO TorrentBroadcast: Reading broadcast variable 3 took 44 ms
+23/02/20 10:05:25 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 370.9 KiB, free 416.5 MiB)
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/01/part-00000-590a36a2-7500-44ba-9fb8-5d6d1b73dbf0-c000.snappy.parquet, range: 0-557200, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/07/part-00001-0074f381-e7bd-46f6-bcb9-f59ec882e1fd-c000.snappy.parquet, range: 0-542798, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/07/part-00003-35863759-7830-48b6-b98d-ed496f479246-c000.snappy.parquet, range: 0-635667, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/07/part-00000-0074f381-e7bd-46f6-bcb9-f59ec882e1fd-c000.snappy.parquet, range: 0-541572, partition values: [empty row]
+23/02/20 10:05:25 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/09/part-00003-d8847aa3-e87d-47d4-84cb-1d1a0bb04616-c000.snappy.parquet, range: 0-635173, partition values: [empty row]
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/02/part-00003-d625603b-e13f-4135-b29f-1284badf006e-c000.snappy.parquet, range: 0-2901761, partition values: [empty row]
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/07/part-00001-35863759-7830-48b6-b98d-ed496f479246-c000.snappy.parquet, range: 0-635050, partition values: [empty row]
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2021/04/part-00002-7c991159-0e7c-4e5a-85cd-f5068698e032-c000.snappy.parquet, range: 0-634740, partition values: [empty row]
+23/02/20 10:05:26 INFO Executor: Finished task 2.0 in stage 2.0 (TID 4). 3475 bytes result sent to driver
+23/02/20 10:05:26 INFO CoarseGrainedExecutorBackend: Got assigned task 7
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/02/part-00001-d625603b-e13f-4135-b29f-1284badf006e-c000.snappy.parquet, range: 0-2899935, partition values: [empty row]
+23/02/20 10:05:26 INFO Executor: Running task 5.0 in stage 2.0 (TID 7)
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/01/part-00003-81083b95-e0c4-4bb2-8710-a2e1d97b9e33-c000.snappy.parquet, range: 0-42371078, partition values: [empty row]
+23/02/20 10:05:26 INFO Executor: Finished task 1.0 in stage 2.0 (TID 3). 3475 bytes result sent to driver
+23/02/20 10:05:26 INFO CoarseGrainedExecutorBackend: Got assigned task 8
+23/02/20 10:05:26 INFO Executor: Running task 6.0 in stage 2.0 (TID 8)
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/02/part-00002-d625603b-e13f-4135-b29f-1284badf006e-c000.snappy.parquet, range: 0-2893908, partition values: [empty row]
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/02/part-00001-140882e2-91d3-41c3-ab0b-c8edee839170-c000.snappy.parquet, range: 0-41622086, partition values: [empty row]
+23/02/20 10:05:26 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/03/part-00002-be199539-0432-4288-a5fa-92693509dec8-c000.snappy.parquet, range: 0-1682838, partition values: [empty row]
+23/02/20 10:05:27 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/03/part-00003-be199539-0432-4288-a5fa-92693509dec8-c000.snappy.parquet, range: 0-1679914, partition values: [empty row]
+23/02/20 10:05:27 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/03/part-00000-be199539-0432-4288-a5fa-92693509dec8-c000.snappy.parquet, range: 0-1679836, partition values: [empty row]
+23/02/20 10:05:27 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/03/part-00001-be199539-0432-4288-a5fa-92693509dec8-c000.snappy.parquet, range: 0-1677822, partition values: [empty row]
+23/02/20 10:05:27 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/10/part-00002-bd7fa307-2db6-4b5e-bb4f-4f1d7bce399f-c000.snappy.parquet, range: 0-689803, partition values: [empty row]
+23/02/20 10:05:27 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/10/part-00003-bd7fa307-2db6-4b5e-bb4f-4f1d7bce399f-c000.snappy.parquet, range: 0-689748, partition values: [empty row]
+23/02/20 10:05:27 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/10/part-00000-bd7fa307-2db6-4b5e-bb4f-4f1d7bce399f-c000.snappy.parquet, range: 0-689694, partition values: [empty row]
+23/02/20 10:05:27 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/green/2020/10/part-00001-bd7fa307-2db6-4b5e-bb4f-4f1d7bce399f-c000.snappy.parquet, range: 0-689241, partition values: [empty row]
+23/02/20 10:05:28 INFO Executor: Finished task 0.0 in stage 2.0 (TID 2). 3475 bytes result sent to driver
+23/02/20 10:05:28 INFO CoarseGrainedExecutorBackend: Got assigned task 9
+23/02/20 10:05:28 INFO Executor: Running task 7.0 in stage 2.0 (TID 9)
+23/02/20 10:05:28 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/02/part-00002-140882e2-91d3-41c3-ab0b-c8edee839170-c000.snappy.parquet, range: 0-41562543, partition values: [empty row]
+23/02/20 10:05:29 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/01/part-00001-81083b95-e0c4-4bb2-8710-a2e1d97b9e33-c000.snappy.parquet, range: 0-42377412, partition values: [empty row]
+23/02/20 10:05:29 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/02/part-00000-140882e2-91d3-41c3-ab0b-c8edee839170-c000.snappy.parquet, range: 0-41599457, partition values: [empty row]
+23/02/20 10:05:29 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/01/part-00000-81083b95-e0c4-4bb2-8710-a2e1d97b9e33-c000.snappy.parquet, range: 0-42367150, partition values: [empty row]
+23/02/20 10:05:30 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/03/part-00000-8edfe89f-c355-4eff-bb81-eb3aec79949d-c000.snappy.parquet, range: 0-19974543, partition values: [empty row]
+23/02/20 10:05:31 INFO Executor: Finished task 4.0 in stage 2.0 (TID 6). 3475 bytes result sent to driver
+23/02/20 10:05:31 INFO CoarseGrainedExecutorBackend: Got assigned task 10
+23/02/20 10:05:31 INFO Executor: Running task 8.0 in stage 2.0 (TID 10)
+23/02/20 10:05:31 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/03/part-00002-8edfe89f-c355-4eff-bb81-eb3aec79949d-c000.snappy.parquet, range: 0-19972810, partition values: [empty row]
+23/02/20 10:05:31 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/03/part-00001-8edfe89f-c355-4eff-bb81-eb3aec79949d-c000.snappy.parquet, range: 0-19927908, partition values: [empty row]
+23/02/20 10:05:32 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/02/part-00003-140882e2-91d3-41c3-ab0b-c8edee839170-c000.snappy.parquet, range: 0-41569770, partition values: [empty row]
+23/02/20 10:05:32 INFO Executor: Finished task 5.0 in stage 2.0 (TID 7). 3475 bytes result sent to driver
+23/02/20 10:05:32 INFO CoarseGrainedExecutorBackend: Got assigned task 11
+23/02/20 10:05:32 INFO Executor: Running task 9.0 in stage 2.0 (TID 11)
+23/02/20 10:05:32 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/06/part-00000-c11dc1c1-e0b2-441d-a329-cc28e7054cca-c000.snappy.parquet, range: 0-19176635, partition values: [empty row]
+23/02/20 10:05:33 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/03/part-00003-8edfe89f-c355-4eff-bb81-eb3aec79949d-c000.snappy.parquet, range: 0-19960705, partition values: [empty row]
+23/02/20 10:05:33 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/06/part-00003-c11dc1c1-e0b2-441d-a329-cc28e7054cca-c000.snappy.parquet, range: 0-19197552, partition values: [empty row]
+23/02/20 10:05:33 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/07/part-00002-938c04af-8971-4c4b-9e31-ed08da073f2a-c000.snappy.parquet, range: 0-19175903, partition values: [empty row]
+23/02/20 10:05:34 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/06/part-00001-c11dc1c1-e0b2-441d-a329-cc28e7054cca-c000.snappy.parquet, range: 0-19183238, partition values: [empty row]
+23/02/20 10:05:34 INFO Executor: Finished task 7.0 in stage 2.0 (TID 9). 3475 bytes result sent to driver
+23/02/20 10:05:34 INFO CoarseGrainedExecutorBackend: Got assigned task 12
+23/02/20 10:05:34 INFO Executor: Running task 10.0 in stage 2.0 (TID 12)
+23/02/20 10:05:34 INFO Executor: Finished task 6.0 in stage 2.0 (TID 8). 3475 bytes result sent to driver
+23/02/20 10:05:34 INFO CoarseGrainedExecutorBackend: Got assigned task 13
+23/02/20 10:05:34 INFO Executor: Running task 11.0 in stage 2.0 (TID 13)
+23/02/20 10:05:34 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/05/part-00002-c63c3b12-8369-414c-a938-72fb329e0d81-c000.snappy.parquet, range: 0-16978734, partition values: [empty row]
+23/02/20 10:05:34 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/03/part-00001-eeba1557-2a23-4d78-bc43-e274795db762-c000.snappy.parquet, range: 0-13074269, partition values: [empty row]
+23/02/20 10:05:34 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/06/part-00002-c11dc1c1-e0b2-441d-a329-cc28e7054cca-c000.snappy.parquet, range: 0-19166023, partition values: [empty row]
+23/02/20 10:05:35 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/03/part-00002-eeba1557-2a23-4d78-bc43-e274795db762-c000.snappy.parquet, range: 0-13070214, partition values: [empty row]
+23/02/20 10:05:35 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/05/part-00001-c63c3b12-8369-414c-a938-72fb329e0d81-c000.snappy.parquet, range: 0-16976799, partition values: [empty row]
+23/02/20 10:05:35 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/07/part-00000-938c04af-8971-4c4b-9e31-ed08da073f2a-c000.snappy.parquet, range: 0-19182309, partition values: [empty row]
+23/02/20 10:05:35 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/07/part-00001-938c04af-8971-4c4b-9e31-ed08da073f2a-c000.snappy.parquet, range: 0-19165858, partition values: [empty row]
+23/02/20 10:05:35 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/03/part-00003-eeba1557-2a23-4d78-bc43-e274795db762-c000.snappy.parquet, range: 0-13066135, partition values: [empty row]
+23/02/20 10:05:36 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/04/part-00000-7cec3aac-7688-4e94-ad47-0ce7672c8b0d-c000.snappy.parquet, range: 0-14758939, partition values: [empty row]
+23/02/20 10:05:36 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/07/part-00003-938c04af-8971-4c4b-9e31-ed08da073f2a-c000.snappy.parquet, range: 0-19177445, partition values: [empty row]
+23/02/20 10:05:36 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/10/part-00000-7c68921c-1c59-4feb-b03a-9d4ad9468226-c000.snappy.parquet, range: 0-11446598, partition values: [empty row]
+23/02/20 10:05:36 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/05/part-00000-c63c3b12-8369-414c-a938-72fb329e0d81-c000.snappy.parquet, range: 0-16994340, partition values: [empty row]
+23/02/20 10:05:37 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/04/part-00001-7cec3aac-7688-4e94-ad47-0ce7672c8b0d-c000.snappy.parquet, range: 0-14754340, partition values: [empty row]
+23/02/20 10:05:37 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/10/part-00003-7c68921c-1c59-4feb-b03a-9d4ad9468226-c000.snappy.parquet, range: 0-11446173, partition values: [empty row]
+23/02/20 10:05:37 INFO Executor: Finished task 8.0 in stage 2.0 (TID 10). 3475 bytes result sent to driver
+23/02/20 10:05:37 INFO CoarseGrainedExecutorBackend: Got assigned task 14
+23/02/20 10:05:37 INFO Executor: Running task 12.0 in stage 2.0 (TID 14)
+23/02/20 10:05:37 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/11/part-00002-c95dddcc-0219-4ccc-8145-93044cd1fbc4-c000.snappy.parquet, range: 0-10263130, partition values: [empty row]
+23/02/20 10:05:37 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/05/part-00003-c63c3b12-8369-414c-a938-72fb329e0d81-c000.snappy.parquet, range: 0-16989025, partition values: [empty row]
+23/02/20 10:05:37 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/10/part-00002-7c68921c-1c59-4feb-b03a-9d4ad9468226-c000.snappy.parquet, range: 0-11427982, partition values: [empty row]
+23/02/20 10:05:37 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/04/part-00003-7cec3aac-7688-4e94-ad47-0ce7672c8b0d-c000.snappy.parquet, range: 0-14743617, partition values: [empty row]
+23/02/20 10:05:38 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/11/part-00000-c95dddcc-0219-4ccc-8145-93044cd1fbc4-c000.snappy.parquet, range: 0-10258930, partition values: [empty row]
+23/02/20 10:05:38 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/10/part-00001-7c68921c-1c59-4feb-b03a-9d4ad9468226-c000.snappy.parquet, range: 0-11399326, partition values: [empty row]
+23/02/20 10:05:38 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/04/part-00002-7cec3aac-7688-4e94-ad47-0ce7672c8b0d-c000.snappy.parquet, range: 0-14740141, partition values: [empty row]
+23/02/20 10:05:38 INFO Executor: Finished task 9.0 in stage 2.0 (TID 11). 3475 bytes result sent to driver
+23/02/20 10:05:38 INFO CoarseGrainedExecutorBackend: Got assigned task 15
+23/02/20 10:05:38 INFO Executor: Running task 13.0 in stage 2.0 (TID 15)
+23/02/20 10:05:38 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/11/part-00001-c95dddcc-0219-4ccc-8145-93044cd1fbc4-c000.snappy.parquet, range: 0-10249585, partition values: [empty row]
+23/02/20 10:05:38 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/01/part-00003-2b377aba-ce7a-45db-ac65-e845e84acea5-c000.snappy.parquet, range: 0-9384875, partition values: [empty row]
+23/02/20 10:05:39 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/11/part-00003-c95dddcc-0219-4ccc-8145-93044cd1fbc4-c000.snappy.parquet, range: 0-10275583, partition values: [empty row]
+23/02/20 10:05:39 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/12/part-00002-2128cf96-fce8-4fa3-b258-40deda7be3e1-c000.snappy.parquet, range: 0-9985427, partition values: [empty row]
+23/02/20 10:05:39 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/01/part-00002-2b377aba-ce7a-45db-ac65-e845e84acea5-c000.snappy.parquet, range: 0-9373015, partition values: [empty row]
+23/02/20 10:05:39 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/03/part-00000-eeba1557-2a23-4d78-bc43-e274795db762-c000.snappy.parquet, range: 0-13084308, partition values: [empty row]
+23/02/20 10:05:39 INFO Executor: Finished task 11.0 in stage 2.0 (TID 13). 3475 bytes result sent to driver
+23/02/20 10:05:39 INFO CoarseGrainedExecutorBackend: Got assigned task 16
+23/02/20 10:05:39 INFO Executor: Running task 14.0 in stage 2.0 (TID 16)
+23/02/20 10:05:39 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/02/part-00003-e60a804d-6e96-4d0d-a200-3e2cabb5d804-c000.snappy.parquet, range: 0-9371898, partition values: [empty row]
+23/02/20 10:05:39 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/12/part-00003-2128cf96-fce8-4fa3-b258-40deda7be3e1-c000.snappy.parquet, range: 0-9969095, partition values: [empty row]
+23/02/20 10:05:39 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/08/part-00002-98067a0f-932f-41ce-b1e4-4f3497fb17e1-c000.snappy.parquet, range: 0-6969131, partition values: [empty row]
+23/02/20 10:05:40 INFO Executor: Finished task 10.0 in stage 2.0 (TID 12). 3475 bytes result sent to driver
+23/02/20 10:05:40 INFO CoarseGrainedExecutorBackend: Got assigned task 17
+23/02/20 10:05:40 INFO Executor: Running task 15.0 in stage 2.0 (TID 17)
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/05/part-00001-f7deb640-e8f1-4f61-a204-25b241a434a7-c000.snappy.parquet, range: 0-2652716, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/12/part-00001-2128cf96-fce8-4fa3-b258-40deda7be3e1-c000.snappy.parquet, range: 0-9965886, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/08/part-00001-98067a0f-932f-41ce-b1e4-4f3497fb17e1-c000.snappy.parquet, range: 0-6968066, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/02/part-00000-e60a804d-6e96-4d0d-a200-3e2cabb5d804-c000.snappy.parquet, range: 0-9365737, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/04/part-00001-ca56e1e4-7293-423c-87dc-d643fe3c2935-c000.snappy.parquet, range: 0-1804973, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/04/part-00003-ca56e1e4-7293-423c-87dc-d643fe3c2935-c000.snappy.parquet, range: 0-1800588, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/04/part-00002-ca56e1e4-7293-423c-87dc-d643fe3c2935-c000.snappy.parquet, range: 0-1799719, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/08/part-00000-98067a0f-932f-41ce-b1e4-4f3497fb17e1-c000.snappy.parquet, range: 0-6956551, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/04/part-00000-ca56e1e4-7293-423c-87dc-d643fe3c2935-c000.snappy.parquet, range: 0-1799356, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/08/part-00000-3a30f503-622e-4bc4-8751-d8ef104c3254-c000.snappy.parquet, range: 0-1949, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/12/part-00000-2128cf96-fce8-4fa3-b258-40deda7be3e1-c000.snappy.parquet, range: 0-9960551, partition values: [empty row]
+23/02/20 10:05:40 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/02/part-00002-e60a804d-6e96-4d0d-a200-3e2cabb5d804-c000.snappy.parquet, range: 0-9365438, partition values: [empty row]
+23/02/20 10:05:40 INFO Executor: Finished task 15.0 in stage 2.0 (TID 17). 3475 bytes result sent to driver
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/08/part-00003-98067a0f-932f-41ce-b1e4-4f3497fb17e1-c000.snappy.parquet, range: 0-6955184, partition values: [empty row]
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/01/part-00001-2b377aba-ce7a-45db-ac65-e845e84acea5-c000.snappy.parquet, range: 0-9363246, partition values: [empty row]
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/07/part-00003-fc488971-73f4-4459-9878-bbc20f446cc7-c000.snappy.parquet, range: 0-5600095, partition values: [empty row]
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/01/part-00000-2b377aba-ce7a-45db-ac65-e845e84acea5-c000.snappy.parquet, range: 0-9393703, partition values: [empty row]
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/07/part-00002-fc488971-73f4-4459-9878-bbc20f446cc7-c000.snappy.parquet, range: 0-5598086, partition values: [empty row]
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2021/02/part-00001-e60a804d-6e96-4d0d-a200-3e2cabb5d804-c000.snappy.parquet, range: 0-9387100, partition values: [empty row]
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/09/part-00002-57b6ab6d-e743-40f6-95ab-89fba72ddb78-c000.snappy.parquet, range: 0-9169199, partition values: [empty row]
+23/02/20 10:05:41 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/07/part-00000-fc488971-73f4-4459-9878-bbc20f446cc7-c000.snappy.parquet, range: 0-5591518, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/09/part-00003-57b6ab6d-e743-40f6-95ab-89fba72ddb78-c000.snappy.parquet, range: 0-9166495, partition values: [empty row]
+23/02/20 10:05:42 INFO Executor: Finished task 12.0 in stage 2.0 (TID 14). 3475 bytes result sent to driver
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/07/part-00001-fc488971-73f4-4459-9878-bbc20f446cc7-c000.snappy.parquet, range: 0-5586058, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/06/part-00002-16ea8c32-480a-4bb9-8edc-0a907ba1f816-c000.snappy.parquet, range: 0-3982867, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/09/part-00001-57b6ab6d-e743-40f6-95ab-89fba72ddb78-c000.snappy.parquet, range: 0-9163522, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/06/part-00000-16ea8c32-480a-4bb9-8edc-0a907ba1f816-c000.snappy.parquet, range: 0-3979243, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/06/part-00001-16ea8c32-480a-4bb9-8edc-0a907ba1f816-c000.snappy.parquet, range: 0-3976413, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/09/part-00000-57b6ab6d-e743-40f6-95ab-89fba72ddb78-c000.snappy.parquet, range: 0-9161693, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/06/part-00003-16ea8c32-480a-4bb9-8edc-0a907ba1f816-c000.snappy.parquet, range: 0-3974883, partition values: [empty row]
+23/02/20 10:05:42 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/05/part-00000-f7deb640-e8f1-4f61-a204-25b241a434a7-c000.snappy.parquet, range: 0-2658424, partition values: [empty row]
+23/02/20 10:05:43 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/05/part-00002-f7deb640-e8f1-4f61-a204-25b241a434a7-c000.snappy.parquet, range: 0-2655365, partition values: [empty row]
+23/02/20 10:05:43 INFO Executor: Finished task 13.0 in stage 2.0 (TID 15). 3475 bytes result sent to driver
+23/02/20 10:05:43 INFO FileScanRDD: Reading File path: file:///home/stl/notebooks/data/pq/yellow/2020/05/part-00003-f7deb640-e8f1-4f61-a204-25b241a434a7-c000.snappy.parquet, range: 0-2654321, partition values: [empty row]
+23/02/20 10:05:43 INFO Executor: Finished task 14.0 in stage 2.0 (TID 16). 3475 bytes result sent to driver
+23/02/20 10:05:43 INFO CoarseGrainedExecutorBackend: Got assigned task 18
+23/02/20 10:05:43 INFO Executor: Running task 0.0 in stage 4.0 (TID 18)
+23/02/20 10:05:43 INFO MapOutputTrackerWorker: Updating epoch to 1 and clearing cache
+23/02/20 10:05:43 INFO TorrentBroadcast: Started reading broadcast variable 5 with 1 pieces (estimated total size 4.0 MiB)
+23/02/20 10:05:43 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 99.9 KiB, free 433.4 MiB)
+23/02/20 10:05:43 INFO TorrentBroadcast: Reading broadcast variable 5 took 20 ms
+23/02/20 10:05:43 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 284.3 KiB, free 433.1 MiB)
+23/02/20 10:05:43 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+23/02/20 10:05:43 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+23/02/20 10:05:43 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+23/02/20 10:05:43 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+23/02/20 10:05:43 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+23/02/20 10:05:43 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+23/02/20 10:05:43 INFO CodecConfig: Compression: SNAPPY
+23/02/20 10:05:43 INFO CodecConfig: Compression: SNAPPY
+23/02/20 10:05:43 INFO ParquetOutputFormat: Parquet block size to 134217728
+23/02/20 10:05:43 INFO ParquetOutputFormat: Validation is off
+23/02/20 10:05:43 INFO ParquetOutputFormat: Maximum row group padding size is 8388608 bytes
+23/02/20 10:05:43 INFO ParquetOutputFormat: Parquet properties are:
+Parquet page size to 1048576
+Parquet dictionary page size to 1048576
+Dictionary is true
+Writer version is: PARQUET_1_0
+Page size checking is: estimated
+Min row count for page size check is: 100
+Max row count for page size check is: 10000
+Truncate length for column indexes is: 64
+Truncate length for statistics min/max  is: 2147483647
+Bloom filter enabled: false
+Max Bloom filter size for a column is 1048576
+Bloom filter expected number of distinct values are: null
+Page row count limit to 20000
+Writing page checksums is: on
+23/02/20 10:05:43 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "revenue_zone",
+    "type" : "integer",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_month",
+    "type" : "timestamp",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "service_type",
+    "type" : "string",
+    "nullable" : false,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_fare",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_extra",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_mta_tax",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_tip_amount",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_tolls_amount",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_improvement_surcharge",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_total_amount",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "revenue_monthly_congestion_surcharge",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "avg_montly_passenger_count",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "avg_montly_trip_distance",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  } ]
+}
+and corresponding Parquet message type:
+message spark_schema {
+  optional int32 revenue_zone;
+  optional int96 revenue_month;
+  required binary service_type (STRING);
+  optional double revenue_monthly_fare;
+  optional double revenue_monthly_extra;
+  optional double revenue_monthly_mta_tax;
+  optional double revenue_monthly_tip_amount;
+  optional double revenue_monthly_tolls_amount;
+  optional double revenue_monthly_improvement_surcharge;
+  optional double revenue_monthly_total_amount;
+  optional double revenue_monthly_congestion_surcharge;
+  optional double avg_montly_passenger_count;
+  optional double avg_montly_trip_distance;
+}
+
+       
+23/02/20 10:05:43 INFO CodecPool: Got brand-new compressor [.snappy]
+23/02/20 10:05:44 INFO MapOutputTrackerWorker: Don't have map outputs for shuffle 0, fetching them
+23/02/20 10:05:44 INFO MapOutputTrackerWorker: Doing the fetch; tracker endpoint = NettyRpcEndpointRef(spark://MapOutputTracker@de-zoomcamp.europe-west1-b.c.second-chariot-375510.internal:42781)
+23/02/20 10:05:44 INFO MapOutputTrackerWorker: Got the map output locations
+23/02/20 10:05:44 INFO ShuffleBlockFetcherIterator: Getting 16 (1437.1 KiB) non-empty blocks including 16 (1437.1 KiB) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+23/02/20 10:05:44 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 24 ms
+23/02/20 10:05:44 INFO CodeGenerator: Code generated in 62.065594 ms
+23/02/20 10:05:45 INFO FileOutputCommitter: Saved output of task 'attempt_202302201005432850779247432581021_0004_m_000000_18' to file:/home/stl/notebooks/data/report/revenue/_temporary/0/task_202302201005432850779247432581021_0004_m_000000
+23/02/20 10:05:45 INFO SparkHadoopMapRedUtil: attempt_202302201005432850779247432581021_0004_m_000000_18: Committed. Elapsed time: 1 ms.
+23/02/20 10:05:45 INFO Executor: Finished task 0.0 in stage 4.0 (TID 18). 5609 bytes result sent to driver
+23/02/20 10:05:45 INFO CoarseGrainedExecutorBackend: Driver commanded a shutdown
+23/02/20 10:05:45 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL TERM
+tdown
